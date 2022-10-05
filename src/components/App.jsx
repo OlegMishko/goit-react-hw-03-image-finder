@@ -19,7 +19,7 @@ export default class App extends Component {
   }
 
   render() {
-    const {} = this.state;
+    // const {} = this.state;
 
     return (
       <MainPage>
