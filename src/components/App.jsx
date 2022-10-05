@@ -23,6 +23,7 @@ export default class App extends Component {
 
     return (
       <MainPage>
+        console.log(first)
         {/* <SearhBar />
         <ImageGallery />
         <Button />
