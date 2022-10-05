@@ -23,10 +23,10 @@ export default class App extends Component {
 
     return (
       <MainPage>
-        <SearhBar />
+        {/* <SearhBar />
         <ImageGallery />
         <Button />
-        <Modal />
+        <Modal /> */}
       </MainPage>
     );
   }
