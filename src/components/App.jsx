@@ -1,6 +1,6 @@
 import { Component } from 'react';
 
-import fetchPics from './service/ApiService';
+// import fetchPics from './service/ApiService';
 
 import { MainPage } from 'common/MainPage.styled';
 

@@ -10,4 +10,4 @@ async function fetchPics(page, searchQuery) {
   return responce.data;
 }
 
-export default fetchPics;
+// export default fetchPics;
