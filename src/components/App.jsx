@@ -42,7 +42,7 @@ export default class App extends Component {
         const imageData = await fetchPics(searchQuery, page);
         this.totalHits = imageData.total;
         const imagesHits = imageData.hits;
-        if (!imagesHits.lenght) {
+        if (!imagesHits.length) {
           toast.warning(
             'No results were found for your search, please try something else.',
             { transition: Zoom, position: 'top-center' }
@@ -110,7 +110,7 @@ export default class App extends Component {
     return (
       <MainPage>
         <SearchBar onSubmit={this.handleFormSubmit} />
-        <ToastContainer autoClose={3000} theme="colored" pauseOnHover/>
+        <ToastContainer autoClose={3000} theme="colored" pauseOnHover />
         {status === 'pending' && <Loader />}
         {error && (
           <h1 style={{ color: 'orangered', textAlign: 'center' }}>
